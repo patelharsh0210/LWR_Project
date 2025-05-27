@@ -1,0 +1,7 @@
+:host {
+	--icon-size: 5rem;
+}
+
+svg {
+	height: var(--icon-size, 5rem);
+}

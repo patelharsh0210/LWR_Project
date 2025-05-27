@@ -1,0 +1,16 @@
+{
+  "assets": {
+    "/public/assets/banner-background.webp": {
+      "path": "/public/assets/banner-background.webp",
+      "mimeType": "image/webp"
+    },
+    "/public/assets/favicon.ico": {
+      "path": "/public/assets/favicon.ico",
+      "mimeType": "image/vnd.microsoft.icon"
+    },
+    "/favicon.ico": {
+      "path": "/favicon.ico",
+      "mimeType": "image/vnd.microsoft.icon"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bundles": {
+    "lwc": {
+      "version": "5.0.0",
+      "path": "/1/bundle/amd/l/en-US/bi/0/module/mi/lwc/v/5_0_0/s/b005bb4c2c907fd35a0797f2b8899108a9a5b779/bundle_lwc.js",
+      "includedModules": [],
+      "imports": [],
+      "dynamicImports": []
+    },
+    "@lwrjs/app-service/base/module/amd": {
+      "version": "0.11.12",
+      "path": "/1/bundle/amd/l/en-US/bi/0/module/mi/@lwrjs/app-service/base/module/amd/v/0_11_12/s/b9ca23b180a88e7c34575ab82d724cac477aebac/bundle_@lwrjs_app-service_base_module_amd.js",
+      "includedModules": [
+        "lwr/metrics/v/0_11_12",
+        "lwr/init/v/0_11_12",
+        "lwr/preInit/v/0_11_12"
+      ],
+      "imports": [
+        "lwc/v/5_0_0"
+      ],
+      "dynamicImports": []
+    },
+    "base/app": {
+      "version": "0.0.1",
+      "path": "/1/bundle/amd/l/en-US/bi/0/module/mi/base/app/v/0_0_1/s/0f798e6ebc629f88cd662ab48f1562237f0c4642/bundle_base_app.js",
+      "includedModules": [
+        "@fortawesome/free-brands-svg-icons/v/6_5_1",
+        "@fortawesome/fontawesome-svg-core/v/6_5_1",
+        "ui/icon/v/0_0_1",
+        "ui/footer/v/0_0_1",
+        "ui/contentBlock/v/0_0_1",
+        "ui/banner/v/0_0_1"
+      ],
+      "imports": [
+        "lwc/v/5_0_0"
+      ],
+      "dynamicImports": []
+    }
+  }
+}

@@ -1,0 +1,10 @@
+<template>
+	<article lwc:if={isText}>
+		<h1>{title}</h1>
+		<span>{text}</span>
+	</article>
+
+	<a href="https://www.google.com" lwc:if={isLink} target="_blank"
+		>This is a link!</a
+	>
+</template>

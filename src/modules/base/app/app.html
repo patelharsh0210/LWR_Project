@@ -1,0 +1,24 @@
+<template>
+	<header>
+		<ui-banner
+			title={CONTENT.BANNER.title}
+			subtitle={CONTENT.BANNER.subtitle}
+			type-writer-effect={CONTENT.BANNER.typeWriterEffect}
+		></ui-banner>
+	</header>
+	<main>
+		<section>
+			<ui-content-block
+				heading={CONTENT.BODY.heading}
+				show-wave-emoji={CONTENT.BODY.showWaveEmoji}
+				paragraphs={CONTENT.BODY.paragraphs}
+			></ui-content-block>
+		</section>
+	</main>
+	<footer>
+		<ui-footer
+			footer-text={CONTENT.FOOTER.text}
+			icon-links={CONTENT.FOOTER.iconLinks}
+		></ui-footer>
+	</footer>
+</template>
