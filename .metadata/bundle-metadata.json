@@ -1,0 +1,50 @@
+{
+  "bundles": {
+    "example/app|v/0_0_1": {
+      "version": "0.0.1",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/example/app/v/0_0_1/s/sha256-uC9rX-sS8QGyLJwmKkrBzirgaQWqw2h1zjqNj4Pmc2w/bundle_example_app.js",
+      "includedModules": [],
+      "imports": [
+        "lwc|v/8_16_4"
+      ],
+      "dynamicImports": [],
+      "integrity": "sha256-uC9rX+sS8QGyLJwmKkrBzirgaQWqw2h1zjqNj4Pmc2w="
+    },
+    "@lwrjs/app-service/home/module/esm|v/0_17_2": {
+      "version": "0.17.2",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/@lwrjs/app-service/home/module/esm/v/0_17_2/s/sha256-8wStdAFp6WRMgxbDQsOgW8z8PtUnCznBRU70iPtqBfI/bundle_@lwrjs_app-service_home_module_esm.js",
+      "includedModules": [],
+      "imports": [
+        "lwr/esmLoader|v/0_17_2",
+        "lwr/profiler|v/0_17_2",
+        "lwc|v/8_16_4"
+      ],
+      "dynamicImports": [],
+      "integrity": "sha256-8wStdAFp6WRMgxbDQsOgW8z8PtUnCznBRU70iPtqBfI="
+    },
+    "lwc|v/8_16_4": {
+      "version": "8.16.4",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/lwc/v/8_16_4/s/sha256-vG9Mj3zh4l9DOJ9cMKuLopa00poE8OaEH5Tzjknf6b8/bundle_lwc.js",
+      "includedModules": [],
+      "imports": [],
+      "dynamicImports": [],
+      "integrity": "sha256-vG9Mj3zh4l9DOJ9cMKuLopa00poE8OaEH5Tzjknf6b8="
+    },
+    "lwr/esmLoader|v/0_17_2": {
+      "version": "0.17.2",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/lwr/esmLoader/v/0_17_2/s/sha256-XZ3-fTIQeMpr-t515p72MK4vr6gSnXsH3O_YELtRaFw/bundle_lwr_esmLoader.js",
+      "includedModules": [],
+      "imports": [],
+      "dynamicImports": [],
+      "integrity": "sha256-XZ3+fTIQeMpr+t515p72MK4vr6gSnXsH3O/YELtRaFw="
+    },
+    "lwr/profiler|v/0_17_2": {
+      "version": "0.17.2",
+      "path": "/1/bundle/esm/l/en-US/bi/0/module/mi/lwr/profiler/v/0_17_2/s/sha256-kGLXJohj797McyfBP40zJ-_7G1vXcR4obQNMGxQNgGk/bundle_lwr_profiler.js",
+      "includedModules": [],
+      "imports": [],
+      "dynamicImports": [],
+      "integrity": "sha256-kGLXJohj797McyfBP40zJ+/7G1vXcR4obQNMGxQNgGk="
+    }
+  }
+}

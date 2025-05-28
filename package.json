@@ -1,49 +1,32 @@
 {
-	"name": "lwr-portfolio",
-	"version": "0.0.1",
-	"license": "MIT",
-	"private": true,
-	"type": "module",
-	"scripts": {
-		"clean": "rm -rf node_modules __lwr_cache__ site",
-		"dev": "lwr dev",
-		"dev:compat": "lwr dev --mode compat",
-		"test:unit": "jest",
-		"test:unit:coverage": "jest --coverage",
-		"test:unit:watch": "jest --watch",
-		"test:validate": "jest --ci --reporters='default' --reporters='./github-actions-reporter'",
-		"build": "lwr build --output docs",
-		"build:prod-compat": "lwr build --mode prod-compat --output docs",
-		"start": "lwr start",
-		"stage": "yarn build && yarn start",
-		"stage:prod-compat": "yarn build:prod-compat && yarn start"
-	},
-	"dependencies": {
-		"@fortawesome/fontawesome-svg-core": "^6.5.1",
-		"@fortawesome/free-brands-svg-icons": "^6.5.1",
-		"@fortawesome/free-regular-svg-icons": "^6.5.1",
-		"@fortawesome/free-solid-svg-icons": "^6.5.1",
-		"execa": "^8.0.1",
-		"lwc": "5.0.0",
-		"lwr": "0.11.12",
-		"onetime": "^7.0.0"
-	},
-	"engines": {
-		"node": ">=16.0.0"
-	},
-	"volta": {
-		"node": "18.16.1"
-	},
-	"devDependencies": {
-		"@lwc/jest-preset": "^14.3.0",
-		"@sa11y/jest": "^6.5.1",
-		"@testing-library/dom": "^9.3.4",
-		"jest": "^29.7.0",
-		"jest-environment-jsdom": "^29.7.0",
-		"lint-staged": "^15.2.0",
-		"prettier": "3.2.4"
-	},
-	"lint-staged": {
-		"*.{js,css,md}": "prettier --write"
-	}
+  "name": "my-lwr-app",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "clean": "rimraf node_modules __lwr_cache__ site",
+    "dev": "lwr dev",
+    "dev:compat": "lwr dev --mode compat",
+    "build": "lwr build --clean",
+    "deploy": "gh-pages -d site",
+    "build:prod-compat": "lwr build --clean --mode prod-compat",
+    "start": "lwr start",
+    "stage": "yarn build && yarn start",
+    "stage:prod-compat": "yarn build:prod-compat && yarn start"
+  },
+  "dependencies": {
+    "lwc": "latest",
+    "lwr": "0.17.2",
+    "my-lwr-app": "file:"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "volta": {
+    "node": "20.16.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }

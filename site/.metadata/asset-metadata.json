@@ -1,0 +1,16 @@
+{
+  "assets": {
+    "%5Cpublic%5Cassets%5Cfavicon.ico": {
+      "path": "\\public\\assets\\favicon.ico",
+      "mimeType": "image/vnd.microsoft.icon"
+    },
+    "%5Cpublic%5Cassets%5Crecipes-logo.png": {
+      "path": "\\public\\assets\\recipes-logo.png",
+      "mimeType": "image/png"
+    },
+    "%5Cfavicon.ico": {
+      "path": "\\favicon.ico",
+      "mimeType": "image/vnd.microsoft.icon"
+    }
+  }
+}

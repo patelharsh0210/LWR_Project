@@ -1,6 +1,2 @@
-/__lwr_cache__
-/node_modules
-/coverage
-
-# Mac OS System File
-.DS_Store
+node_modules/
+__lwr_cache__/
