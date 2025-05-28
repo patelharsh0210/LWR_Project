@@ -8,9 +8,9 @@
     "clean": "rimraf node_modules __lwr_cache__ site",
     "dev": "lwr dev",
     "dev:compat": "lwr dev --mode compat",
-    "build": "lwr build --clean",
+    "build": "lwr build --output site",
     "deploy": "gh-pages -d site",
-    "build:prod-compat": "lwr build --clean --mode prod-compat",
+    "build:prod-compat": "lwr build --mode prod-compat --output site",
     "start": "lwr start",
     "stage": "yarn build && yarn start",
     "stage:prod-compat": "yarn build:prod-compat && yarn start"
