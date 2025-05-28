@@ -1,7 +1,7 @@
 const MAIN_CONTENT = {
 	BANNER: {
 		title: "hello, world!",
-		subtitle: "Welcome to lachlanpeacock.com",
+		subtitle: "Welcome to Chintan.com",
 		typeWriterEffect: true,
 	},
 	BODY: {
