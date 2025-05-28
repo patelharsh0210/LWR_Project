@@ -17,7 +17,7 @@ const MAIN_CONTENT = {
 		iconLinks: [
 			{
 				href: "https://www.linkedin.com/in/lachlan-peacock/",
-				ariaLabel: "Lachlan's LinkedIn Profile",
+				ariaLabel: "Chintan's LinkedIn Profile",
 				target: "_blank",
 				iconName: "linkedin",
 			},
